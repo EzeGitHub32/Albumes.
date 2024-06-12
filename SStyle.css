@@ -1,0 +1,18 @@
+body{
+    background-color: gray;
+}
+.nav{
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+nav li:hover{
+    background-color: red;
+    color: white;
+}
+.card{
+    width: 500px;
+    border: 2px;
+    padding: 0 auto;
+    text-align: center;
+}

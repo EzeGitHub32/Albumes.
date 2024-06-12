@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cyan
+}
+header{
+    background-color: pink;
+    border : 5px solid black;
+    padding: 10px;
+    height :100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    font-size: large;
+}
+nav li:hover{
+    display: inline;
+    margin: 20px;
+    color: white;
+    background-color: blue;
+
+}
+
+
+li{
+    list-style: none;
+}
+
+.ejercicios{
+    background-color: violet
+    border 10px solid white;
+    padding:10px;
+}
+
+.productos{
+    position: relative;
+    color: black;
+}
+.card{
+    background-color: violet
+    width 500px
+    height 400px;
+    text-align: center;
+    border:5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card img{
+    width: 70%;
+    height: 70%;
+    border: 3px solid black;
+    margin-top: 5px;
+
+}
+
+.padre{
+    display: flexbox;
+    justify-content: space-evenly;
+}
+
+
+
+section{
+    margin: 25px;
+}
+
+.pie{
+    font-size: 25px;
+}
+.prod{
+    color: bisque;
+}
+footer{
+    background-color: pink;
+    border: 5px solid black;
+    padding: 10px;
+}
+.redes{
+    font-size: large;
+}
+.redes li:hover{
+    display: inline;
+    margin: 20px;
+    background-color: green
+
+}
+
+@media screen and (max-width:700px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}

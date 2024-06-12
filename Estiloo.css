@@ -1,0 +1,58 @@
+body{
+    background: url(About.png) no-repeat;
+    background: url(Home.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    color: white;
+}
+
+header{
+    border: 3px solid white;
+    border-radius: 12px;
+    background: transparent;
+}
+.wrapper{
+    background-color:transparent;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+h1,h2{
+    font-family: fantasy;
+    font-style: oblique;
+    color: red;
+}
+
+nav{
+    font-family: cursive;
+    font-style: oblique;
+    border: 3px solid violet;
+    border-radius: 12px;
+}
+.style{
+    font-family: cursive;
+    font-style: oblique;
+    color: violet;
+    border-radius: 12px;
+}
+h3{
+    color: yellow;
+}
+section{
+    border: 2px solid blueviolet;
+    border-radius: 12px;
+}
+.wrapper{
+    color: white;
+    background-color: transparent;
+    font-family: cursive;
+}
+footer{
+    color: pink;
+    font-family: fantasy;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 12px;
+}
